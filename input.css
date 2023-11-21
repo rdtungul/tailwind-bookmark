@@ -17,6 +17,9 @@
   .align-items-center {
     @apply flex items-center justify-between;
   }
+  .align-justify-center {
+    @apply flex items-center justify-center;
+  }
   .align-cols-center {
     @apply flex flex-col items-center;
   }
@@ -50,4 +53,13 @@
 .ficon:hover {
   filter: invert(80%) sepia(37%) saturate(500%) hue-rotate(132deg)
     brightness(105%) contrast(104%);
+}
+
+@media (min-width: 1020px) {
+  .bg-hero {
+    width: 2000px;
+    height: 300px;
+    left: 30%;
+    @apply absolute rounded-l-full top-52 bg-softBlue;
+  }
 }
