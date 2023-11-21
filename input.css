@@ -55,13 +55,21 @@
     brightness(105%) contrast(104%);
 }
 
-/* ========== HERO SECTION */
-/* Hero Section Blue overlay effects */
-@media (min-width: 1020px) {
+/* ========== MOBILE RESPONSIVE STYLING */
+@media screen(lg) {
+  /* Hero Section Blue overlay effects */
   .bg-hero {
     width: 100vw;
     height: 300px;
     left: 30%;
     @apply absolute rounded-l-full top-52 bg-softBlue;
+  }
+
+  /* Feature Tabs Section Blue overlay effects */
+  .bg-tabs {
+    width: 100vw;
+    height: 300px;
+    right: 30%;
+    @apply absolute rounded-r-full top-60 bg-softBlue;
   }
 }
