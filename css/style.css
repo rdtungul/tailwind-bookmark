@@ -2768,9 +2768,13 @@ video {
     brightness(105%) contrast(104%);
 }
 
+/* ========== HERO SECTION */
+
+/* Hero Section Blue overlay effects */
+
 @media (min-width: 1020px) {
   .bg-hero {
-    width: 2000px;
+    width: 100vw;
     height: 300px;
     left: 30%;
     position: absolute;
