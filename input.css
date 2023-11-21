@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  /* Nav Links Style */
+  .nav-links {
+    @apply text-grayishViolet hover:text-veryDarkViolet;
+  }
+  /* Mobile Nav Style */
+  .mb-nav-links {
+    @apply w-full text-center hover:text-cyan;
+  }
+}
+
+/* ========== Footer Links Styling */
+@layer components {
+  .align-items-center {
+    @apply flex items-center justify-between;
+  }
+  .align-cols-center {
+    @apply flex flex-col items-center;
+  }
+  .align-cols-center-start {
+    @apply align-cols-center md:items-start;
+  }
+  .flex-col-p6 {
+    @apply flex flex-col p-6;
+  }
+  .flex-cols-start {
+    @apply flex flex-col items-start;
+  }
+
+  /* Feature Row Style */
+  .feature-row-center {
+    @apply flex flex-col space-y-24 text-center;
+  }
+  /* Feature Items Style */
+  .feature-items-center {
+    @apply h-24 mb-6 align-items-center;
+  }
+  .feature-space-center {
+    @apply space-y-2 align-cols-center;
+  }
+
+  .testimonial-box {
+    @apply flex flex-col p-10 space-y-6 bg-gray-100 rounded-lg dark:bg-darkBlue3 md:w-1/3;
+  }
+}
+
+.ficon:hover {
+  filter: invert(80%) sepia(37%) saturate(500%) hue-rotate(132deg)
+    brightness(105%) contrast(104%);
+}
