@@ -23,6 +23,21 @@
   .feature-panel-text {
     @apply max-w-md text-center text-grayishBlue md:text-left;
   }
+
+  /* DOWNLOAD SECTION */
+  /* Boxes Containers Styling */
+  .download-box-container {
+    @apply flex flex-col w-full py-6 space-y-4 text-center rounded-lg shadow-lg;
+  }
+  .download-box-heading {
+    @apply pt-6 text-xl font-bold;
+  }
+  .download-dots-container {
+    @apply px-6 pt-6 capitalize bg-repeat-x bg-dots;
+  }
+  .download-buttons {
+    @apply block w-full py-3 text-white duration-200 border-2 rounded-lg border-softBlue bg-softBlue hover:bg-white hover:text-softBlue;
+  }
 }
 
 /* ========== Footer Links Styling */
