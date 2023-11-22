@@ -10,6 +10,19 @@
   .mb-nav-links {
     @apply w-full text-center hover:text-cyan;
   }
+
+  /* FEATURES/TAB SECTION */
+  /* Feature Tabs Container Styling */
+  .feature-tabs-container {
+    @apply text-gray-600 border-b align-text-center md:border-b-0 hover:text-softRed md:w-1/3;
+  }
+  /* Panel Content */
+  .feature-panel-heading {
+    @apply text-3xl font-semibold text-center;
+  }
+  .feature-panel-text {
+    @apply max-w-md text-center text-grayishBlue md:text-left;
+  }
 }
 
 /* ========== Footer Links Styling */
@@ -19,6 +32,9 @@
   }
   .align-justify-center {
     @apply flex items-center justify-center;
+  }
+  .align-text-center {
+    @apply flex justify-center text-center;
   }
   .align-cols-center {
     @apply flex flex-col items-center;
@@ -69,7 +85,7 @@
   .bg-tabs {
     width: 100vw;
     height: 300px;
-    right: 30%;
+    right: 60%;
     @apply absolute rounded-r-full top-60 bg-softBlue;
   }
 }
