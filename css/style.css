@@ -705,6 +705,12 @@ video {
   justify-content: center;
 }
 
+.flex-cols-start {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 /* Feature Row Style */
 
 /* Feature Items Style */
